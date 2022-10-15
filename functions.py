@@ -1,12 +1,28 @@
-def selamlama():
-    for i in range(11):
-        print('Merhaba')
+def toplam():
+    return 10+20
 
-# selamlama()
+sonuc = toplam() + 50
 
-def topla():
-    a = 10
-    b = 20
-    print(a+b)
+def yil():
+    import datetime
+    return datetime.datetime.now().year
 
-topla()
+def yasHesapla():
+    return yil() - 1983
+
+sonuc = yasHesapla()
+
+def saat():
+    import datetime
+    return datetime.datetime.now().hour
+
+
+def selamla():
+    if (saat()<12):
+        return "Günaydın"
+    else:
+        return "Merhaba"
+
+
+
+print(sonuc)
