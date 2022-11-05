@@ -1,6 +1,9 @@
+import pdb
+
 liste=[1,5,18,44,33,67]
 
 x=list(filter(lambda a: a>15, liste))
+pdb.set_trace()
 print(x)
 
 y=list(filter(lambda i: i%2==0,liste))
