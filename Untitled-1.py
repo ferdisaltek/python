@@ -12,19 +12,26 @@
 
 #--------------------------------------------condition
 
-import random_control
+# import random_control
 
-print(random_control.x)
+# print(random_control.x)
 
-markalar = []
+# markalar = []
 
-marka = input("marka: ")
-markalar.append(marka)
+# marka = input("marka: ")
+# markalar.append(marka)
 
-marka = input("marka: ")
-markalar.append(marka)
+# marka = input("marka: ")
+# markalar.append(marka)
 
-marka = input("marka: ")
-markalar.append(marka)
+# marka = input("marka: ")
+# markalar.append(marka)
 
-print(markalar)
+# print(markalar)
+
+
+
+a=[0,1,2,3]
+print(a[-1])
+for a[-1] in a:
+    print(a[-1])
