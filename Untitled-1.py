@@ -31,7 +31,16 @@
 
 
 
-a=[0,1,2,3]
-print(a[-1])
-for a[-1] in a:
-    print(a[-1])
+# a=[0,1,2,3]
+# print(a[-1])
+# for a[-1] in a:
+#     print(a[-1])
+
+
+if __name__ == '__main__':
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    print(sorted(list(set(arr)))[-2])
+    c
+    
