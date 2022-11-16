@@ -7,8 +7,6 @@
 #       - q1.checkAnswer('python') => True ya da False
 
 
-
-
 class Question:
     def __init__(self,text,choise,answer) :
         self.text=text
@@ -19,6 +17,27 @@ class Question:
         if answer not in self.choise:
             raise ValueError("hatali bilgi")
         return self.answer==answer
+
+# Quiz sınıfı
+#   Instance Attributes
+#       - questions, questionIndex, score
+#   Instance Methods
+#       - getQuestion()         => questionIndex' e göre question nesnesi getirir.
+#       - displayQuestion()     => getQuestion() ile alınan nesneyi gösterir.
+#       - loadQuestion()        => Testi başlatır.
+#       - displayScore()        => Score bilgisini gösterir.
+#       - displayProgress()     => Testdeki ilerlemeyi gösterir. (5 sorunun 2.sorusundasınız.)
+
+class Quiz:
+    def __init__(self,questions) :
+        self.questions=questions
+
+    
+    def getQuestion(self,questionIndex):
+        pass
+        
+
+
 
         
         
@@ -44,7 +63,6 @@ print(sonuc)
 #       - loadQuestion()        => Testi başlatır.
 #       - displayScore()        => Score bilgisini gösterir.
 #       - displayProgress()     => Testdeki ilerlemeyi gösterir. (5 sorunun 2.sorusundasınız.)
-
 
 
 
