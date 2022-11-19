@@ -37,10 +37,22 @@
 #     print(a[-1])
 
 
-if __name__ == '__main__':
-if __name__ == '__main__':
-    n = int(input())
-    arr = map(int, input().split())
-    print(sorted(list(set(arr)))[-2])
-    c
+# if __name__ == '__main__':
+# if __name__ == '__main__':
+#     n = int(input())
+#     arr = map(int, input().split())
+#     print(sorted(list(set(arr)))[-2])
+
     
+
+
+def split_and_join(line):
+    #print(line.split())
+    a=line.split()
+    #print(a)
+    a="-".join(a)
+    print(a)
+
+    
+
+split_and_join("this is a string   ")
