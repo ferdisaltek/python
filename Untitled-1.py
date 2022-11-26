@@ -57,6 +57,7 @@
 
 # split_and_join("this is a string   ")
 
+<<<<<<< HEAD
 
 
 s = input()
@@ -80,3 +81,10 @@ print(any(c.isupper() for c in s))
 
 
 
+=======
+def print_full_name(first, last):
+    print(f"Hello {first} {last}! You just delved into pyton")
+
+
+print_full_name(input("first :"),input("last:"))
+>>>>>>> 71d4c12 (iterator and generator)
