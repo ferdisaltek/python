@@ -113,14 +113,27 @@
 
 
 
-def usalma(number):
-    def inner(power):
-        return number ** power
+# def usalma(number):
+#     def inner(power):
+#         return number ** power
     
-    return inner
+#     return inner
 
-two = usalma(2) # 2-3
-three = usalma(3) # 3-4
+# two = usalma(2) # 2-3
+# three = usalma(3) # 3-4
 
-print(two(3))
-print(three(4))
+# print(two(3))
+# print(three(4))
+
+lowest=[]
+l=[['a', 11.0], ['b', 33.0], ['c', 5.0],['d',5.0]]
+for i in range(len(l)):
+    
+    lowest.append(l[i][1])
+s=sorted(lowest)
+low_num=s[0]
+
+for _ in l:
+    if low_num==l[i][1]:
+        print(l[i][0])
+
