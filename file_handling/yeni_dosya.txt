@@ -1,0 +1,2 @@
+dosyaya yazma islemi yapildi
+dosyaya yazma islemi 2 defa yapildi
