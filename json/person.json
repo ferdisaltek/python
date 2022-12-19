@@ -1,0 +1,12 @@
+{
+    "firstName":"ali",
+    "lastName":"veli",
+    "hobbies": ["spor","sinema"],
+    "age":37,
+    "children": [
+        {
+            "firstName": "ahmet",
+            "age":3
+        }
+    ]
+}
