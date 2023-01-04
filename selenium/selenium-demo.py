@@ -23,7 +23,7 @@ login.click()
 time.sleep(3)
 
 username = driver.find_element_by_id("wpName1")
-username.send_keys("Sadikturan")
+username.send_keys("test")
 
 password = driver.find_element_by_id("wpPassword1")
 password.send_keys("")
