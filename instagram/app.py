@@ -3,6 +3,8 @@ from userinfo import username, password
 from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.common.by import By
+from selenium import webdriver
+
 
 class Instagram:
 
@@ -35,7 +37,14 @@ class Instagram:
             self.browser.find_element_by_xpath('/html/body/div[4]/div/div/div/div[3]/button[2]').click()
 
     def getFollowers(self):
-        pass
+        self.browser.get(f"https://www.instagram.com/{self.username}")
+        time.sleep(2)
+        self.browser.find_element_by_class_name("k9GMp").find_element_by_tag_name("a").click()
+        time.sleep(2)
+        followers = self.browser.find_element_by_class_name("PZuss").find_elements_by_tag_name("li")
+        for user in followers:
+            link = user.find_element_by_tag_name("a").get_attribute("href")
+            print(link)
 
     def followUser(self, username):
         pass
