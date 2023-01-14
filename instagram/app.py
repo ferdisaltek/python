@@ -36,15 +36,48 @@ class Instagram:
         if self.browser.find_element_by_xpath('/html/body/div[4]/div/div/div/div[3]/button[2]'):
             self.browser.find_element_by_xpath('/html/body/div[4]/div/div/div/div[3]/button[2]').click()
 
-    def getFollowers(self):
+    def getFollowers(self, max):
         self.browser.get(f"https://www.instagram.com/{self.username}")
-        time.sleep(2)
+        time.sleep(1)
         self.browser.find_element_by_class_name("k9GMp").find_element_by_tag_name("a").click()
-        time.sleep(2)
-        followers = self.browser.find_element_by_class_name("PZuss").find_elements_by_tag_name("li")
+        time.sleep(1)
+
+        modal = self.browser.find_element_by_css_selector("div[role=dialog] ul")
+        count = len(modal.find_elements_by_tag_name("li"))
+
+        action = webdriver.ActionChains(self.browser)
+
+        print(f"takipçi sayisi: {count}")
+
+        while count<max:
+            modal.click()
+
+            action.key_down(Keys.SPACE).key_up(Keys.SPACE).perform()
+            time.sleep(1)
+
+            action.key_down(Keys.SPACE).key_up(Keys.SPACE).perform()
+            time.sleep(1)
+
+            action.key_down(Keys.SPACE).key_up(Keys.SPACE).perform()
+            time.sleep(1)
+
+            newCount = len(modal.find_elements_by_tag_name("li"))
+
+            if count != newCount:
+                count = newCount
+                print(f"takipçi sayisi: {count}")
+                time.sleep(1)
+            else:
+                break
+
+        i = 0
+        followers = modal.find_elements_by_tag_name("li")
         for user in followers:
+            i += 1
+            print(i)
             link = user.find_element_by_tag_name("a").get_attribute("href")
             print(link)
+
 
     def followUser(self, username):
         pass
