@@ -17,4 +17,5 @@ mycursor=mydb.cursor()
 
 # print(mydb) 
 
-mycursor.execute("CREATE TABLE CUSTOMERS (NAME VARCHAR(255),ADDRESS VARCHAR(255))")
+s=mycursor.execute("select * from customers")
+print(s)
