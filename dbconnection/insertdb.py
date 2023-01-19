@@ -1,12 +1,8 @@
-import  mysql.connector
+import mysql
+from connetion import connection
 
 def insertCustomer(NAME,ADDRESS):
-    connection=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="123123123",
-    database="mydatabse"
-    )
+    
     cursor=connection.cursor()
 
     sql="INSERT INTO CUSTOMERS(NAME,ADDRESS) values(%s,%s)"
