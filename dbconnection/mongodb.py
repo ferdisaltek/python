@@ -2,7 +2,7 @@
 from pydoc import cli
 from pymongo import MongoClient
 
-myclient = MongoClient("mongodb+srv://ferdisaltek:XDSKWhU236acPQbR@cluster0.tgyhn.mongodb.net/node-app")
+myclient = MongoClient("mongodb+srv://ferdisaltek:<password>@cluster0.tgyhn.mongodb.net/node-app?retryWrites=true&w=majority")
 print("Connection Successful")
 
 mydb=myclient["node-app"]
