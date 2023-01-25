@@ -1,8 +1,13 @@
 
+from pydoc import cli
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://ferdisaltek:<password>@cluster0.tgyhn.mongodb.net/?retryWrites=true&w=majority")
+myclient = MongoClient("mongodb+srv://ferdisaltek:XDSKWhU236acPQbR@cluster0.tgyhn.mongodb.net/node-app")
 print("Connection Successful")
-for db in client.list_databases():
-    print(db)
-client.close()
+
+mydb=myclient["node-app"]
+mycollection=mydb["products"]
+
+product={"name":"samsung s20","price":5}
+result=mycollection.insert_one(product)
+myclient.close()
