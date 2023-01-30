@@ -1,7 +1,7 @@
 import pymongo  
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://ferdisaltek:XDSKWhU236acPQbR@cluster0.tgyhn.mongodb.net/node-app?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://url")
 print("Connection Successful")
 
 collection = client.libraryDB.books  
