@@ -1,13 +1,14 @@
-from django.shortcuts import render
 from django.http.response import HttpResponse
+from django.shortcuts import render
 
 # Create your views here.
-
 def index(request):
-    return HttpResponse("homepage")
+    return render(request, "blog/index.html")
 
 def blogs(request):
-    return HttpResponse("BLOGS")
+    return render(request, "blog/blogs.html")
 
-def blog_details(request,id):
-    return HttpResponse("blog details"+id)
+def blog_details(request, id):
+    return render(request, "blog/blog-details.html", {
+        "id": id
+    })
