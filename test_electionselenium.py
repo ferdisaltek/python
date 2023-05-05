@@ -23,7 +23,7 @@ class TestElectionselenium():
     self.driver.set_window_size(2560, 1330)
     self.driver.find_element(By.ID, "url").click()
     self.driver.execute_script("window.scrollTo(0,0)")
-    self.driver.find_element(By.ID, "url").send_keys("https://secimharitasi.com/aday/nahit-baykara-780")
+    self.driver.find_element(By.ID, "url").send_keys("https://secimharitasi.com/aday)
     self.driver.find_element(By.ID, "requestSubmit").click()
     self.driver.find_element(By.LINK_TEXT, "Oy Ver").click()
   
