@@ -13,9 +13,12 @@ def say_hello():
     print("hello")
 
 
+@delay_decorator
 def say_bye():
     print("byee")
 
+
+@delay_decorator
 def say_greeting():
     print("how are you ?")
 
