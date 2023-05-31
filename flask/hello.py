@@ -9,6 +9,8 @@ def hello_world():
 def say_bye():
     return 'bye bye'
 
-
+@app.route("/username/<name>/<int:number>")
+def greeting(name,number):
+    return f"hello there {name}, you are {number} years old!"
     
 
