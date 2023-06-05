@@ -3,7 +3,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return '<h1 style="text-align: center">Hello, World!</h1>'\
+            '<p> this is  a paragraph.</p>'
+
 
 @app.route('/bye')
 def say_bye():
@@ -14,3 +16,6 @@ def greeting(name,number):
     return f"hello there {name}, you are {number} years old!"
     
 
+if __name__=="__main__":
+    #rune the app in debug mode to auto-reload
+    app.run(debug=True)
