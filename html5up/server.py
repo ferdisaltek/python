@@ -2,9 +2,10 @@ from flask import Flask,render_template
 
 app = Flask(__name__)
 
-@app.route('/')
-def profile(name):
-  return render_template("index.html", name=name)
+@app.route("/")
+def home():
+  return render_template("C:/python_learn/python/html5up/templates/index.html")
+
     
 
 if __name__=="__main__":
