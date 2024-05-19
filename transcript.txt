@@ -1,0 +1,607 @@
+1.16: - [Jared] This is the Enigma machine.
+3.3: It looks like a typewriter but it has
+5.16: a very different purpose.
+7.18: During World War II it was
+used to keep messages secret
+9.965: or in other words encrypted.
+12.371: In this video, we'll look at
+why the Enigma machine exists,
+17.16: how it was used and then we'll
+take a look at the inside
+19.45: to see how the mechanism works.
+22.104: (electricity buzzes)
+28.23: This video is sponsored by Brilliant,
+30.43: a fun and interactive way
+to learn math and science.
+33.65: Towards the end of this video
+34.82: we'll take a closer look
+at their website and app.
+39.02: While making this video
+I had a lot of help
+41.01: from enigmamuseum.com.
+43.29: These guys took a part
+in actual enigma machine
+45.517: and showed me what's on the inside,
+47.93: behind the panels, all the inside wiring
+50.51: and how each mechanical piece works.
+53.1: This would have taken a
+lot longer to 3D model
+55.29: and animate without their help.
+57.33: So big thanks to enigmamuseum.com
+59.379: and now let's get to some animation.
+62.08: To really understand the Enigma machine
+63.806: we need to understand
+something called encryption.
+66.809: Let's use an example.
+68.77: Say we have two friends, Alice and Bob.
+71.49: Alice wants to send a message to Bob
+73.5: however, Alice doesn't want anyone else
+75.45: to be able to read this
+message such as Eve.
+78.095: Just as an example we'll keep
+the message really simple.
+81.11: Alice will need to scramble
+the contents of the message.
+84.662: This is called encryption.
+87.45: It looks like a bunch of random letters
+89.27: and if Eve gets a hold of
+it then she won't be able
+91.53: to understand it.
+93.16: When the message gets to Bob he needs
+95.25: to unscramble the message.
+96.92: This is called decryption.
+98.702: Now he can read the original message.
+100.973: Alice and Bob need to agree on a way
+102.956: to encrypt and decrypt their messages.
+105.87: A real simple way to do this
+is called a Caesar cipher.
+108.723: This involves shifting all
+the letters in the message
+112.04: three spaces to the right in the alphabet
+114.27: so an H becomes a K, an E becomes an H,
+118.367: an L becomes an O, an L becomes another O,
+122.387: and an O becomes an R.
+125.2: Now the message looks like gibberish,
+127.26: A bunch of random letters.
+129.2: When Bob gets the message all he has to do
+131.51: is take each letter and
+move it back three spaces.
+135.26: This will give him the original message
+137.16: so he can read it again.
+139.01: Now Eve in the middle, as
+long as she doesn't know
+141.59: how the messages were encrypted
+143.44: she won't be able to read any one of them.
+146.72: During war encryption
+is extremely important.
+149.9: Commanding officers need to
+be able to get messages out
+152.28: to the troops on the battlefield
+153.66: but they don't want the enemy to be able
+155.15: to understand these messages.
+157.572: Nowadays encryption is
+performed by computers
+160.693: but this wasn't always the case.
+163.3: The Enigma machine was used to
+encrypt and decrypt messages.
+167.026: You can think of this
+as a very sophisticated
+169.54: letter scrambler.
+171.01: It was invented in the early 1900s
+172.646: and then most famously, it was used
+175.09: by the German military in the 1930s
+177.6: and throughout World War II.
+182.04: This is the keyboard with 26 letters.
+185.264: And this is the lamp board
+which also has 26 letters
+189.38: but these letters can light up.
+191.97: Each time you press a
+letter on the keyboard,
+194.13: a letter on the lamp board lights up,
+196.57: but it will always be a different letter
+198.45: than the one that was pressed.
+200.5: There are usually two people involved
+202.32: when the machine is used, one
+person to type in the letters
+204.894: and another person to
+write down the letters
+207.26: that appear on the lamp board.
+209.54: Let's use our example from earlier.
+211.243: Type in each letter and
+write down the letters
+214.48: that appear on the lamp board.
+216.55: Now we have our encrypted message,
+218.45: the scrambled letters
+that nobody can read.
+220.83: This message is sent usually
+by radio using morse code.
+224.29: The person who receives this message also
+226.61: has their own Enigma machine.
+228.74: To decrypt the message or unscramble it
+231.14: they type in the letters on the keyboard
+232.7: and write down which letters appear
+234.49: on the lamp board and out
+comes the original message.
+237.94: The Enigma machine was used for both
+240.51: encryption and decryption.
+243.102: The person sending the
+message needs a machine
+245.88: and the person receiving the message
+247.327: also needs a machine to
+be able to read it again.
+251.06: So how does the Enigma
+machine know which letters
+253.44: to give you?
+254.64: Maybe you press an A and outcomes an H.
+258.09: How does it do that?
+260.13: Well, part of the answer is electricity.
+262.7: Let me show you a simple example.
+265.12: We have a battery, some
+wires, and then something
+268.0: that uses electricity in
+this case, a light bulb.
+271.43: This is called a circuit.
+272.63: It's a closed loop for
+the electricity to flow.
+275.92: But if there's a break in the wire,
+277.25: then the light bulb turns off.
+279.66: If we put a switch in here,
+now we can easily turn
+282.16: the light bulb on or off.
+284.34: There has to be a complete path
+for the electricity to flow.
+288.28: Now let's add another
+path, one more switch,
+290.83: and a light bulb.
+291.89: Now we can turn on two
+different light bulbs
+294.22: depending on which switch we turn on,
+296.17: there's a different
+path through the wires.
+298.538: We could expand this even more,
+300.721: more switches and more light bulbs.
+303.327: Now, this is predictable.
+305.48: We know which switch
+goes to which light bulb,
+308.68: but what if we scramble these wires?
+311.31: Now the switch for the letter A turns on
+313.67: the letter C light bulb and the C switch
+315.871: turns on the B light bulb.
+318.495: This idea of scrambling the wires,
+321.125: that's how the Enigma machine works.
+324.12: Let me show you on the real thing.
+326.29: The battery is inside in
+the top right-hand corner
+329.53: of the machine.
+331.04: The keyboard has 26 keys.
+333.8: When you press one of
+them it connects a circuit
+336.01: which will then turn on one
+of these 26 light bulbs.
+340.04: The light bulbs will then
+illuminate the letter
+342.01: that's directly above
+it on the lamp board.
+344.33: When you release the key, the circuit
+346.3: is disconnected and the
+light bulb turns off.
+349.54: Each key connects a different path
+351.42: which means a different light bulb.
+353.61: Okay, this is the
+challenging part of the video
+356.46: understanding the circuit or the path
+358.67: that the electricity follows
+throughout the Enigma machine.
+361.92: Maybe pause the video, get your degree
+363.57: in electrical engineering
+and then let's do this.
+367.07: The three main parts that
+we need to understand
+369.36: are the rotors, the keyboard
+mechanism, and the plugboard.
+375.9: Let's start up here with the rotors.
+377.82: This machine has three of them.
+379.94: This is where the letters get scrambled.
+382.62: Let's take a look at one of the rotors.
+384.327: You have the numbers one
+through 26 for all the letters.
+388.21: So one is for A, two is
+for B, three is for C
+391.924: and all the way around until 26 for Z.
+396.71: On the side you'll see
+26 metal contact points.
+399.47: There are also 26 on the other side too.
+404.12: When you put two of these rotors together
+406.03: the metal contacts
+connect, making it possible
+408.58: for electricity to pass through.
+411.07: On the inside of these three rotors
+412.79: you'll find lots of wires
+that connects the two sides,
+415.68: but as you can see, it's all scrambled.
+418.49: So let's go through the
+pin for the number one.
+421.78: Follow the wire through
+and it comes out the pin
+426.25: for the number four.
+428.17: So in this case an A was changed to a D.
+431.739: When electricity travels through one rotor
+434.29: it changes the letter once.
+435.75: But remember, we have
+three of these rotors
+438.08: and they each have different
+wirings on the inside.
+441.46: When electricity travels
+through all three of them
+444.21: it changes the letter three times.
+446.832: Then at the end, we have the reflector.
+450.78: This also has 26 metal contacts.
+454.276: Inside is more wiring that
+connects the letters in pairs.
+458.89: So it goes in as one
+letter and then comes out
+461.74: as another letter.
+464.11: To the right of here is the input wheel.
+466.756: It has 26 wires that go in and connects
+469.79: to the 26 metal contacts.
+473.36: Let's put this all together.
+474.98: Electricity flows through
+one of the 26 wires,
+477.699: let's say the wire for the letter Y.
+480.7: Then it gets changed to a different letter
+482.67: at all three rotors.
+484.48: Then it hits the reflector,
+which again, changes the letter.
+487.527: And then it goes back
+through the rotors again
+489.615: which changes the letter three more times.
+492.57: And it comes back out on
+a wire that represents
+494.62: a completely different letter.
+496.75: And if you were counting,
+this means the letter
+498.97: was changed seven times.
+501.819: Now, this is just an
+example of how the letters
+504.3: could get scrambled, but the
+path can and will change.
+510.1: Each of these three rotors can rotate
+511.85: to 26 different positions.
+514.03: When any one of the
+rotors changes positions
+515.943: this will also change
+the path of electricity
+518.98: making it very difficult
+to predict which letters
+521.77: are going to come out.
+525.64: The 26 wires from the input
+will travel down the right side
+528.98: of the machine to the
+plugboard in the very front.
+532.07: Now the plugboard was yet another way
+534.05: that the letters could
+be around specifically,
+536.299: you could swap two letters.
+537.981: So let's say we wanna
+switch the W and the J.
+541.533: You could take one of these cables here
+543.93: with plugs at each end and put
+one of them into the W spot
+547.389: and the other one in the J spot.
+550.464: On the back side of the plugboard,
+552.09: you can see the individual wires going
+554.49: to the tops of each socket,
+and then out to the bottom
+557.76: of each socket.
+559.26: Let's take a closer look.
+560.73: This is the plugboard
+socket for the letter O.
+563.93: If nothing is plugged into
+it the electricity flows in
+566.239: through the top, then
+through the shorting bar
+570.25: and then out through the bottom.
+572.18: This means that the plugboard
+didn't change the letter.
+574.7: It came in as the letter
+O and then it came out
+576.91: as the letter O.
+578.48: When a plug is inserted, it
+pushes up the shorting bar
+581.024: so it doesn't connect anymore.
+583.83: Now the electricity
+flows in through the top,
+586.158: out through the top pin of the plug,
+589.0: then through the cable and
+out through the bottom.
+592.19: On the other side.
+593.86: What came in as an O now
+it comes out as an E.
+599.47: Often times, they would use
+up to 10 of these cables.
+603.16: Notice how a few of these
+letters are still left
+605.46: without a plug.
+609.16: Let's take a look at
+the keyboard mechanism.
+611.75: Each of these keys is connected
+to a long stem beneath it.
+615.57: They have springs that push them back up
+617.37: when you release the key.
+619.21: the last row of keys have the
+springs connected at the top.
+623.071: Right next to all of these keys
+625.24: most of the space is taken up.
+627.58: These are the 26 key switches.
+630.92: These switches are a
+little bit more complex
+632.93: than just the on-off
+switches that we saw earlier.
+635.43: Let's take a look at
+just one of the switches.
+637.39: This one is for the letter P.
+639.43: The switch has three
+different copper colored tabs.
+642.589: The wires are connected back here,
+645.459: and the flow of electricity is controlled
+647.98: from the other end.
+649.53: When a key is pressed it comes down
+651.63: and hits the rubber end of the middle tab.
+653.91: What this does is changes
+where the electricity can flow.
+657.267: Before a key is pressed the
+top two tabs are connected,
+660.725: and after the key is pressed, the bottom
+663.82: two tabs are connected.
+666.182: There are 26 key switches
+and here's all the wires
+671.44: that are connected to them.
+673.18: The top tabs are connected
+to the light bulbs.
+676.07: The wires go to the left
+and up to the corresponding
+679.89: 26 light bulbs.
+684.86: The middle tabs connect to the plugboard.
+687.73: They go through the wires to
+the right side of the machine
+690.386: and down to the corresponding
+letters on the plugboard.
+695.82: A wire from the battery goes directly
+697.89: into the bottom tabs of each key switch.
+702.25: So each switch has three different tabs
+704.991: and three different places
+where they are connected to.
+709.63: Before a key is pressed the bottom tab
+711.85: isn't connected to
+anything so the electricity
+713.942: has nowhere to go.
+715.92: This is true for all 26 key switches.
+719.35: No circuit, which means all
+the light bulbs are off.
+723.46: Now let's say we press the X key.
+727.56: The battery and the
+plugboard are now connected.
+729.94: This completes a circuit
+but it's not as simple
+732.57: as this circuit we saw earlier.
+735.01: Let me show you a quick overview
+of the path of electricity.
+738.32: Don't worry if you
+can't keep up quite yet,
+740.17: we're gonna go over each part one by one.
+743.258: (mellow music)
+748.72: Let's take a closer look at each step.
+751.41: Electricity flows from
+the battery to the bottom
+754.62: and then middle tab on the
+switch for the letter X.
+758.07: Then it goes directly to the plugboard.
+762.574: And in this case there's
+nothing plugged in
+764.07: for the letter X so it comes
+back out as the letter X,
+767.98: up the side and into the input wheel.
+770.94: Then through three rotors, the reflector,
+773.81: and then back through the rotors again,
+775.97: changing letters at each step of the way.
+778.38: What started as the letter
+X is now the letter K.
+783.78: Now we come back to the
+plugboard for the second time.
+786.87: The letter K is swapped with a C.
+790.75: So in through the letter
+K, through the cord,
+794.95: and then out for the letter C.
+797.59: Then travels from the plugboard back
+799.45: to the middle tab on
+the letter C key switch.
+802.5: Remember we started as the letter X
+805.27: but then came back in as the letter C.
+809.02: Then it goes out the wire of the top tab
+811.338: and up to the letter C light bulb.
+816.34: Then the current flows through
+the metal light bulb plate
+819.604: to this tiny wire which
+connects back to the battery.
+823.59: This completes our circuit.
+825.95: As soon as the key is
+released no more circuit
+828.32: and the light bulb turns off.
+830.78: So just to recap, once a key is pressed
+833.61: electricity goes from the battery
+835.7: to whichever key switch was pressed.
+838.26: Then the plugboard, rotors,
+then back to the plugboard,
+842.839: then the key switch for
+our new scrambled letter,
+845.935: then the corresponding light bulb
+848.66: and then back to the battery.
+850.74: The letter has changed
+seven times at the rotors,
+854.895: and then possibly two more
+times at the plugboard.
+860.74: Remember that the letter
+isn't always changed
+863.08: when it goes to the plugboard.
+868.3: Okay, the electric circuit was
+the hard part of the video.
+871.27: If you made it this far, we're doing good,
+873.23: but there's a little bit
+more that I wanna show you.
+878.31: Each time a key is pressed
+you'll notice that at least one
+880.689: of these three rotors will turn.
+883.49: Press a key rotor turns,
+press a key rotor turns.
+888.22: This means that if you press a key twice
+889.748: you'll get two different letters.
+892.83: In fact, if you keep
+pressing the same letter
+895.4: a different light turns on every time.
+898.14: This is what made Enigma so powerful.
+900.33: The code was always changing
+so it was hard to predict
+902.9: which letters were going to come out.
+905.24: The way these rotor spin
+is completely mechanical.
+907.88: No electricity needed for this.
+909.65: Even if the battery was taken out,
+911.35: pressing one of these keys
+would still turn the rotor.
+914.61: On the bottom of the machine
+is a large metal plate
+917.08: called the actuator bar.
+919.275: It works like a seesaw or a teeter-totter.
+923.38: Pressing any of the keys
+pushes it down on this side,
+926.54: which pushes it up on the other side.
+929.77: Around the backside is
+where the magic happens.
+934.581: This uses a ratchet and pawl mechanism.
+938.51: This is the ratchet gear.
+940.258: And this small piece is the pawl.
+943.867: When the pawl is pushed
+up it spins the rotor
+946.42: and then comes back down.
+948.26: You can see how this would
+spin it in only one direction.
+951.64: This up and down motion will
+keep spinning the rotors
+954.07: one slot each time.
+956.25: The next two rotors
+work a little different.
+958.71: Let's take a look at the second one.
+960.5: Most of the time the
+pawl can't make contact
+962.75: with the ratchet gear teeth.
+964.96: It's blocked by an edge around
+here on the first rotor.
+967.971: The first rotor has a tiny
+notch around the side here.
+972.05: When the rotor spins the
+notch travels around the edge.
+975.88: Watch what happens when it comes up again
+977.76: on the other side.
+979.24: The pawl will fit right into the notch
+981.15: and the second rotor is
+allowed to spin, but just once.
+984.84: The next time it will be blocked again
+986.58: and only the first rotor
+is allowed to spin.
+989.69: That edge on the first
+rotor has to go all the way
+992.21: around before the second rotor
+is allowed to spin again.
+995.05: This will happen once
+every 26 key presses.
+998.49: The same thing with the third rotor.
+1000.68: There's another edge on the second rotor
+1002.3: that has to go all the way around
+1003.91: before the third one is allowed to spin.
+1006.974: Last but not least we
+have the three levers
+1010.45: on the very back with index
+wheels at the very end.
+1014.22: They ride along the outside
+of the rotor gear teeth.
+1017.2: This means that the rotors
+always stop spinning
+1019.69: at the next number.
+1020.72: This is important so that
+the electrical contacts
+1022.776: always line up between the rotors.
+1027.51: Before you use the Enigma machine,
+1029.5: it would need to be configured
+with the right settings.
+1032.31: There are four of these
+settings to go through.
+1036.88: First is the rotor order.
+1038.92: Each Enigma machine came
+with a set of five rotors.
+1041.628: Choose three of them and
+then choose which order
+1045.81: to put them in.
+1047.36: Then there's the ring
+setting for each rotor
+1049.69: which is basically the
+shifting of these number wheels
+1052.54: but that also includes
+the notch on the side.
+1057.4: This means this will change
+when the leftmost rotors
+1060.04: can be advanced to the next number.
+1062.98: Then there's the starting
+position for each rotor.
+1065.53: You can set this to the
+tiny windows up here.
+1070.0: And the final setting is the configuration
+1072.29: of the plugboard at the very front.
+1076.5: So everyone in the German
+army had these settings
+1079.11: in advance.
+1080.0: They were distributed out by paper
+1081.61: so they would know
+which settings to use
+1083.34: on which day of the month.
+1085.62: Even if the opposing side
+has their own Enigma machine,
+1088.725: they won't be able to read the messages
+1090.89: unless they know the settings
+that were in use that day.
+1094.37: Some of the ideas behind
+the Enigma machine
+1096.302: are complex and sometimes
+difficult to understand.
+1099.98: However, it may come easier to those
+1101.75: that increase their ability
+to do math and science.
+1105.18: brilliant.org is a problem solving website
+1107.47: and app that has over 60
+courses in mathematics,
+1110.848: science and computer science.
+1113.98: The idea here is to learn by doing.
+1115.829: They teach you a concept and
+then immediately you get to try
+1118.9: it out in a fun and engaging way.
+1121.28: You can use Brilliant to help
+you as a student in school
+1123.833: or as a professional or anyone who wants
+1126.54: to keep their skills sharp.
+1128.3: There's a wide range of content
+1129.73: and they're even adding new
+courses from time to time.
+1132.86: Instead of just learning a
+formula and blindly plugging
+1135.39: in the numbers, you
+get to visually see why
+1137.415: that formula works.
+1139.53: There's nothing quite so satisfying
+1141.25: as when that light bulb
+goes off in your brain.
+1144.05: I like Brilliant because it shows
+1145.47: that learning can and should be fun.
+1148.03: You can sign up for free by going
+1149.36: to brilliant.org/jaredowen.
+1151.37: Also the first 200 people will get 20% off
+1154.18: their annual premium membership.
+1156.806: (mellow music)
